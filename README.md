@@ -1,1 +1,1 @@
-"# Tucil2_13521099" 
+TUCIL 2 STIMA
