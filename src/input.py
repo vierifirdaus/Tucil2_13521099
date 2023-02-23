@@ -1,18 +1,18 @@
+from function import *
+from sorting import *
 point=[]
-
+derajatcnt=0
+titikcnt=0
 def inp() :
-    derajatcnt=int(input("Masukkan banyak derajat : "))
-    n=int(input("Masukkan banyak titik : "))
+    derajatcnt=checkkint("Masukkan banyak derajat : ")
+    titikcnt=checkkint("Masukkan banyak titik : ")
+    return (derajatcnt,titikcnt)
 
-    for i in range(n) :
-        print(f"Masukkan titik ke-{i+1}")
-        temptitik=input()
-        datatitik=temptitik.split(" ")
-        datatitik=[float(i) for i in datatitik]
-        point.append(datatitik)
+def pointinput(derajatcnt,titikcnt) :
+    arr=[]
+    for i in range(titikcnt) :
+        arr.append([])
+        for j in range(derajatcnt) :
+            arr[i].append(random.uniform(-100,100))
+    return arr
 
-    print(point)
-def main() :
-    inp()
-
-main()
