@@ -1,8 +1,6 @@
 from function import *
 from sorting import *
-point=[]
-derajatcnt=0
-titikcnt=0
+
 def inp() :
     derajatcnt=checkkint("Masukkan banyak derajat : ")
     titikcnt=checkkint("Masukkan banyak titik : ")
