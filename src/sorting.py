@@ -6,7 +6,9 @@ def partition(arr,l,r) :
         pivot=arr[r]
     else :
         pivot=arr[r][0]
+
     i=l-1
+    
     for j in range(l,r) :
         if(type(arr[0])==int) :
             if arr[j]<pivot :
