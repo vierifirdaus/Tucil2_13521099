@@ -4,33 +4,40 @@ from sorting import *
 from plot import *
 import time
 def main() :
+
     point=[]
     (derajatcnt,titikcnt)=inp()
     point=pointinput(derajatcnt,titikcnt)
-    # print((point))
     sorting(point,0,len(point)-1)
-    # print((point))
+
     dncawal=time.time()
-    # print(dncawal)
-    ii,jj,solution=Closest(point,0,titikcnt-1)
-    # print(Closest(point,0,titikcnt-1))
+    iDNC,jDNC,solutionDNC,cntDNC=Closest(point,0,titikcnt-1)
     dncakhir=time.time()
-    ii,jj,solution=brute_force(point,0,titikcnt-1)
-    # print(dncakhir)
-    # print(brute_force(point,0,titikcnt-1))
+    iBF,jBF,solutionBF,cntBF=brute_force(point,0,titikcnt-1)
     bfakhir=time.time()
+
     aa=(dncakhir-dncawal)
     bb=(bfakhir-dncakhir)
-    print("DNC : ",aa*1000,"ms")
-    print("BF : ",bb*1000,"ms")
-    if(derajatcnt==3) :
-        plot(point,ii,jj)
-    # while(1) :
-    #     point=pointinput(derajatcnt,titikcnt)
-    #     sorting(point,0,len(point)-1)
-    #     if(Closest(point,0,titikcnt-1)!=brute_force(point,0,titikcnt-1)) :
-    #         print("error")
-            # break
-    # while(Closest(point,0,titikcnt-1)==brute_force(point,0,titikcnt-1)) :
-    #     point=pointinput(derajatcnt,titikcnt)
+    print("Solusi koordinat titik berdasarkan DNF: ")
+    print(point[iDNC])
+    print(point[jDNC])
+    print("Dengan jarak :",solutionDNC)
+    print("Solusi koordinat titik berdasarkan BF: ")
+    print(point[iBF])
+    print(point[jBF])
+    print("Dengan jarak :",solutionBF)
+    print("DNC :",aa*1000,"ms")
+    print("BF :",bb*1000,"ms")
+
+    print("Banyak proses DNC:",cntDNC)
+    print("Banyak proses BF:",cntBF)
+
+    if(derajatcnt==2 or derajatcnt==3) :
+        tampilkan=input("Apakah ingin menampilkan plot dalam 2D atau 3D? (y/n): ")
+        if(tampilkan=="y") :
+            if(derajatcnt==3) :
+                plot3d(point,iDNC,jDNC)
+            if(derajatcnt==2) :
+                plot2d(point,iDNC,jDNC)
+
 main()
