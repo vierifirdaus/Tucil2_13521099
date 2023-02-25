@@ -27,7 +27,9 @@ def Closest(point,start,end) :
 
     for i in range(start,end+1) :
         if(abs(point[i][0]-point[mid][0])<solution and i!=mid) :
+        # if(distance(point[i],point[mid])<solution and i!=mid) :
             temp_solution.append(i)
+
 
     for i in range(len(temp_solution)) :
         for j in range(i+1,len(temp_solution)) :
@@ -37,5 +39,6 @@ def Closest(point,start,end) :
                     solution=distance(point[temp_solution[i]],point[temp_solution[j]])
                     point_i=temp_solution[i]
                     point_j=temp_solution[j]
+                    
     return (point_i,point_j,solution,cnt_distance)
 

@@ -3,12 +3,13 @@ from point import *
 from sorting import *
 from plot import *
 import time
+
 def main() :
 
     point=[]
     (derajatcnt,titikcnt)=inp()
     point=pointinput(derajatcnt,titikcnt)
-    sorting(point,0,len(point)-1)
+    sorting(point,0,len(point)-1,0)
 
     dncawal=time.time()
     iDNC,jDNC,solutionDNC,cntDNC=Closest(point,0,titikcnt-1)

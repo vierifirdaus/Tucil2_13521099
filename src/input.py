@@ -1,6 +1,6 @@
 from function import *
 from sorting import *
-
+import random
 def inp() :
     derajatcnt=checkkint("Masukkan banyak derajat : ")
     titikcnt=checkkint("Masukkan banyak titik : ")

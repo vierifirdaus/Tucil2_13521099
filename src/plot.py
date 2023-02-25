@@ -13,9 +13,9 @@ def plot3d(arr,i,j) :
         zs.append(arr[ii][2])
     fig = plt.figure()
     ax = fig.add_subplot(111, projection='3d')
-    ax.scatter(xs,ys,zs)
+    ax.scatter([arr[i][0],arr[j][0]],[arr[i][1],arr[j][1]],[arr[i][2],arr[j][2]],c='red',s=80)
+    ax.scatter(xs,ys,zs, color='blue',s=30)
 
-    ax.scatter([arr[i][0],arr[j][0]],[arr[i][1],arr[j][1]],[arr[i][2],arr[j][2]],c='red',s=30)
     ax.plot([arr[i][0],arr[j][0]],[arr[i][1],arr[j][1]],[arr[i][2],arr[j][2]],color='red')
     ax.set_xlabel("Sumbu X")
     ax.set_ylabel("Sumbu Y")

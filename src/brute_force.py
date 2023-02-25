@@ -5,6 +5,7 @@ def brute_force(point,start,end) :
     solution=float('inf')
     point_i=start
     point_j=end
+    
     for i in range(start,end+1) :
         for j in range(i+1,end+1) :
             cnt_distance+=1
