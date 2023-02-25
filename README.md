@@ -68,21 +68,31 @@ A simple program to solve the 24 game problem. The program will take 4 numbers a
 
 ## Screenshots
 <p>
-  <img src="/image/1.png/">
-  <p>Figure 1. Main Menu</p>
+  <img src="/image/ss1.png/">
+  <p>Simulasi pencarian dengan 16 titik derajat tiga</p>
   <nl>
-  <img src="/image/2.png/">
-  <p>Figure 2. Input File Interface (via File Input)</p>
+  <img src="/image/p1.png/">
+  <p>Penggambaran pada bidang tiga dimensi</p>
   <nl>
-  <img src="/image/3.png/">
-  <p>Figure 3. Solution Output Interface (via CLI Input)</p>
+  
+  <img src="/image/ss2.png/">
+  <p>Simulasi pencarian dengan 64 titik derajat tiga</p>
   <nl>
-  <img src="/image/4.png/">
-  <p>Figure 4. Saving output file</p>
+  <img src="/image/p2.png/">
+  <p>Penggambaran pada bidang tiga dimensi</p>
   <nl>
-  <img src="/image/5.png/">
-  <p>Figure 5. Output txt file (via Random Input)</p>
+  
+  <img src="/image/ss3.png/">
+  <p>Simulasi pencarian dengan 128 titik derajat tiga</p>
   <nl>
+  <img src="/image/p1.png/">
+  <p>Penggambaran pada bidang tiga dimensi</p>
+  <nl>
+  
+  <img src="/image/ss5.png/">
+  <p>Simulasi pencarian dengan 100 titik derajat sepuluh</p>
+  <nl>
+  
 </p>
 
 <a name="structure"></a>
