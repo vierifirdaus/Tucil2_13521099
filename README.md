@@ -20,12 +20,12 @@
 
 <a name="general-information"></a>
 
-## General Information
-A simple program to solve the 24 game problem. The program will take 4 numbers as input and will output all possible solutions for 24 game problem. Program will also output the number of solutions and the execution time. This project is based on the brute force algorithm and write in C++ (Command Line Interface). This project got the `best score among informatics engineering students  at ITB in 2023`.  
+## Informasi Umum 
+Program sederhana untuk mencari sepasang titik terdekat dengan Algoritma Divide and Conquer sudah dijelaskan di dalam kuliah. Persoalan tersebut dirumuskan untuk titik pada bidang datar (2D). Pada Tucil 2 kali ini Anda diminta mengembangkan algoritma mencari sepasang titik terdekat pada bidang 3D. Misalkan terdapat n buah titik pada ruang 3D. Setiap titik P di dalam ruang dinyatakan dengan koordinat P = (x, y, z).
 
 <a name="creator-information"></a>
 
-## Creator Information
+## Pembuat
 
 | Nama                        | NIM      | E-Mail                      |
 | --------------------------- | -------- | --------------------------- |
@@ -57,8 +57,8 @@ A simple program to solve the 24 game problem. The program will take 4 numbers a
 <a name="usage"></a>
 
 ## Usage
-1. Open the terminal in the project directory.
-2. `cd bin` and then `main.exe` to run the program.
+1. Buka terminal pada path yang sesuai dengan program
+2. `cd src` untuk me
 3. Choose the input format.
 4. If you choose the CLI input format, you can input the 4 numbers. If you choose the File input format, you can input the file name (that have been placed in `../test/input`). If you choose the Random input format, the program will generate the 4 random numbers.
 5. The program will output the all possible solutions to the 24 game problem, the number of solutions, and the execution time.
@@ -94,57 +94,6 @@ A simple program to solve the 24 game problem. The program will take 4 numbers a
   <nl>
   
 </p>
-
-<a name="structure"></a>
-
-## Structure
-```bash
-│   README.md
-│
-├───.vscode
-│       settings.json
-│
-├───bin
-│       main.exe
-│
-├───doc
-│       Tucil1_K2_13521166_MohammadRifqiFarhansyah.pdf
-│
-├───image
-│       1.png
-│       2.png
-│       3.png
-│       4.png
-│       5.png
-│
-├───src
-│       main.cpp
-│
-└───test
-    ├───input
-    │       TestInputFile1.txt
-    │       TestInputFile2.txt
-    │       TestInputFile3.txt
-    │       TestInputFile4.txt
-    │       TestInputFile5.txt
-    │
-    └───output
-            TestOutputCLI1.txt
-            TestOutputCLI2.txt
-            TestOutputCLI3.txt
-            TestOutputCLI4.txt
-            TestOutputCLI5.txt
-            TestOutputFile1.txt
-            TestOutputFile2.txt
-            TestOutputFile3.txt
-            TestOutputFile4.txt
-            TestOutputFile5.txt
-            TestOutputRandom1.txt
-            TestOutputRandom2.txt
-            TestOutputRandom3.txt
-            TestOutputRandom4.txt
-            TestOutputRandom5.txt
-```
 
 <a name="project-status">
 
