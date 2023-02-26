@@ -10,8 +10,7 @@
 3. [Pemakaian](#usage)
 4. [Screenshots](#screenshots)
 5. [Project Status](#project-status)
-6. [Acknowledgements](#acknowledgements)
-7. [Contact](#contact)
+6. [Contact](#contact)
 
 <a name="general-information"></a>
 
