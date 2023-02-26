@@ -7,7 +7,7 @@
 ## Table of Contents
 1. [Informasi Umum](#general-information)
 2. [Pembuat](#creator-information)
-3. [Usage](#usage)
+3. [Pemakaian](#usage)
 4. [Screenshots](#screenshots)
 5. [Project Status](#project-status)
 6. [Acknowledgements](#acknowledgements)
@@ -41,37 +41,38 @@ Program sederhana untuk mencari sepasang titik terdekat dengan Algoritma Divide 
 
 ## Screenshots
 <p>
-  <img src="/image/ss1.png/">
   <p>Simulasi pencarian dengan 16 titik derajat tiga</p>
-  <nl>
-  <img src="/image/p1.png/">
-  <p>Penggambaran pada bidang tiga dimensi</p>
+  <img src="/image/ss1.png/">
   <nl>
   
-  <img src="/image/ss2.png/">
+  <p>Penggambaran pada bidang tiga dimensi</p>
+  <img src="/image/p1.png/">
+  <nl>
+  
+  
   <p>Simulasi pencarian dengan 64 titik derajat tiga</p>
+  <img src="/image/ss2.png/">
   <nl>
+  
+  <p>Penggambaran pada bidang tiga dimensi</p>
   <img src="/image/p2.png/">
-  <p>Penggambaran pada bidang tiga dimensi</p>
   <nl>
   
-  <img src="/image/ss3.png/">
   <p>Simulasi pencarian dengan 128 titik derajat tiga</p>
+  <img src="/image/ss3.png/">
   <nl>
-  <img src="/image/p1.png/">
+
   <p>Penggambaran pada bidang tiga dimensi</p>
+  <img src="/image/p1.png/">
   <nl>
   
-  <img src="/image/ss5.png/">
+  
   <p>Simulasi pencarian dengan 100 titik derajat sepuluh</p>
+  <img src="/image/ss5.png/">
   <nl>
   
 </p>
 
-<a name="project-status">
-
-## Project Status
-Project is: _complete_
 
 <a name="contact"></a>
 
