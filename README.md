@@ -68,7 +68,7 @@ Program sederhana untuk mencari sepasang titik terdekat dengan Algoritma Divide 
   
   
   <p>Simulasi pencarian dengan 100 titik derajat sepuluh</p>
-  <img src="/image/ss5.png/">
+  <img src="/image/ss6.png/">
   <nl>
   
 </p>
