@@ -78,6 +78,6 @@ Program sederhana untuk mencari sepasang titik terdekat dengan Algoritma Divide 
 ## Contact
 <h4 align="center">
   Contact Me : vieryfirdaus@gmail.com<br/>
-  2023
+  2023.
 </h4>
 <hr>
